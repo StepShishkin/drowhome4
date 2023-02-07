@@ -1,9 +1,17 @@
+import turtle
+
+
+
+
+
 def floor():
     """
     TODO: From Alex
     :return:
     """
-    pass
+    for _ in range(4):
+        turtle.forward(100)
+        turtle.lt(90)
 
 def window():
     """
@@ -18,4 +26,10 @@ def home():
     Function is drawing home.
     :return: None
     """
-    pass
+    floor()
+
+home()
+turtle.done()
+
+
+
